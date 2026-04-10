@@ -27,26 +27,18 @@ CineSense is a modern, full-stack movie recommendation engine. It combines a fas
 
 1.  **Clone the repository** (if you haven't already):
     ```bash
-    git clone https://github.com/Sahil-2026/CineSense-Intelligent-Movie-Recommendation-System.git
-    cd CineSense-Intelligent-Movie-Recommendation-System
+    https://github.com/kb-patel2005/movie_recommand_system_python.git
     ```
 
 2.  **Create a Virtual Environment** (Recommended):
     ```bash
     python -m venv venv
     ```
-    *   On Windows: `venv\Scripts\activate`
-    *   On macOS/Linux: `source venv/bin/activate`
+`env/bin/activate`
 
 3.  **Install Dependencies**:
     ```bash
     pip install -r requirements.txt
-    ```
-
-4.  **Set up Environment Variables**:
-    Create a `.env` file in the root directory and add your TMDB API key:
-    ```env
-    TMDB_API_KEY=your_api_key_here
     ```
 
 ## Running the Application ▶️
@@ -58,14 +50,12 @@ Open a terminal and run:
 ```bash
 uvicorn main:app --reload
 ```
-*The backend will start at `http://127.0.0.1:8000`*
 
 **2. Start the Streamlit Frontend:**
 Open a **new** terminal, activate your virtual environment, and run:
 ```bash
 streamlit run app.py
 ```
-*The frontend will open in your default browser at `http://localhost:8501`*
 
 ## Project Structure 📂
 
