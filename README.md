@@ -21,11 +21,6 @@
 *   **External APIs**: TMDB (The Movie Database) API
 *   **Other**: Python-dotenv, HTTPX
 
-## Prerequisites 📋
-
-1.  Python 3.9+ installed.
-2.  A valid [TMDB API Key](https://developer.themoviedb.org/docs/getting-started).
-
 ## Installation & Setup 🚀
 
 1.  **make Clone the repository** (if you haven't already):
