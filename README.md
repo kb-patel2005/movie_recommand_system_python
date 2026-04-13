@@ -1,6 +1,9 @@
-# CineSense - Intelligent Movie Recommendation System 🎬
+# Movie Recommendation System 
 
-CineSense is a modern, full-stack movie recommendation engine. It combines a fast API backend with a beautifully designed, responsive frontend to help you discover movies through intelligent search, content-based matching, and genre discovery.
+* It combines a fast API backend 
+* frontend with a beautifully designed
+* responsive frontend 
+* help you discover movies through intelligent search, content-based matching, and genre discovery
 
 ## Features ✨
 
@@ -25,45 +28,41 @@ CineSense is a modern, full-stack movie recommendation engine. It combines a fas
 
 ## Installation & Setup 🚀
 
-1.  **Clone the repository** (if you haven't already):
+1.  **make Clone the repository** (if you haven't already):
     ```bash
     https://github.com/kb-patel2005/movie_recommand_system_python.git
     ```
 
-2.  **Create a Virtual Environment** (Recommended):
+2.  **Create a Virtual Environment** :
     ```bash
     python -m venv venv
     ```
 `env/bin/activate`
 
-3.  **Install Dependencies**:
+3.  **Install require Dependencies**:
     ```bash
     pip install -r requirements.txt
     ```
 
 ## Running the Application ▶️
 
-You need to run both the FastAPI backend and the Streamlit frontend.
-
 **1. Start the FastAPI Backend:**
-Open a terminal and run:
+in a terminal and run:
 ```bash
 uvicorn main:app --reload
 ```
 
 **2. Start the Streamlit Frontend:**
-Open a **new** terminal, activate your virtual environment, and run:
+in new one terminal, re create virtual environment, and run:
 ```bash
 streamlit run app.py
 ```
 
-## Project Structure 📂
+## Project folders📂
 
-*   `app.py`: Streamlit frontend code.
+*   `app.py`: Streamlit frontend.
 *   `main.py`: FastAPI backend application and routes.
 *   `movies.ipynb`: Jupyter notebook containing the data exploration and TF-IDF model training.
 *   `df.pkl`, `indices.pkl`, `tfidf.pkl`, `tfidf_matrix.pkl`: Pre-computed machine learning models and data objects for fast recommendations.
-*   `requirements.txt`: Python package dependencies.
+*   `requirements.txt`: all require dependecies to project run.
 
-## Acknowledgements 🙏
-*   Data and imagery provided by [TMDB](https://www.themoviedb.org/).
