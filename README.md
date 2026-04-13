@@ -17,9 +17,8 @@
 
 *   **Frontend**: Streamlit
 *   **Backend**: FastAPI, Uvicorn
-*   **Machine Learning**: Scikit-Learn (TF-IDF), Pandas, NumPy, SciPy
-*   **External APIs**: TMDB (The Movie Database) API
-*   **Other**: Python-dotenv, HTTPX
+*   **model Learn**: Scikit-Learn (TF-IDF), Pandas, NumPy, SciPy
+*   **APIs**: TMDB (The Movie Database) API
 
 ## Installation & Setup 🚀
 
